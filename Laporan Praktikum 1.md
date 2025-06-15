@@ -110,6 +110,8 @@ Iterasi	 a		 b		 c		 f(c)
 Akar yang ditemukan: 1.521380
 ```
 
+![Image](https://github.com/user-attachments/assets/d2bd86e0-91f9-448f-836c-a2a4358f64d4)
+
 Grafik juga akan muncul secara visual menampilkan kurva fungsi dan titik-titik pendekatan akar pada setiap iterasi.
 
 ---
