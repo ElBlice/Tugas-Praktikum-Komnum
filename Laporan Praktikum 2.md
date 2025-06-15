@@ -53,7 +53,7 @@ def romberg_integration(f, a, b, max_iter):
     return R
 ```
 
-## pembahasan code
+## Pembahasan code
 
 ### get_function() – Input Fungsi dari Pengguna :
 Tujuan:
