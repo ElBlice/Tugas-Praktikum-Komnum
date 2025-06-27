@@ -74,6 +74,8 @@ def regula_falsi(f, a, b, tol=1e-6, max_iter=100):
     return c, iterasi
 ```
 
+Iterasi regula falsi akan terus berjalan hingga f(c) memiliki nilai yang lebih kecil dari nilai `tol` (toleransi), yaitu 0,0000001. Nilai c dihitung menggunakan rumus regula falsi yang ada.
+
 ### 4. Visualisasi
 
 Menampilkan grafik dari fungsi serta titik-titik iterasi akar.
@@ -84,6 +86,8 @@ plt.axhline(0, color='black', linewidth=0.5)
 plt.plot(c_i, f(c_i), 'ro')
 plt.vlines(c_i, 0, f(c_i), linestyles='dashed', color='red', alpha=0.5)
 ```
+
+Grafik ditampilkan menggunakan fungsi matplotlib
 
 ---
 
